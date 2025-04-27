@@ -1,13 +1,13 @@
 // SPDX-License-Identifier: MIT
-pragma solidity ^8.0.8;
+pragma solidity ^0.8.26;
 
 contract Practice{
     int public integerVar = -10;
     int public intRangeMax = type(int).max;
     int public intRangeMin = type(int).min; 
     uint public unsignedIntegerVariable = 10;
-    address myAddress = 0x5B38Da6a701c568545dCfcB03f56beddC4;
+    address userAddress = 0xAb8483F64d9C6d1EcF9b849Ae677dD3315835cb2;
     bool status = true;
     string myname = "jaiganesh";
-    byte myNameInByte = "jaiganesh";
+    bytes myNameInByte = "jaiganesh";
 }
